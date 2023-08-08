@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "U3IPGRaSx4ojPSgkONjZcCTqB0kOzHNY/eLB+ZKkoHA=",
+  "Source": "StripPaymentPOC",
+  "BasePath": "_content/StripPaymentPOC",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
