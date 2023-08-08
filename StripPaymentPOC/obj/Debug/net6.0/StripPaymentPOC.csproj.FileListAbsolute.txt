@@ -1,5 +1,7 @@
+C:\Users\mohammed.elkassed\source\repos\StripPaymentPOC\StripPaymentPOC\obj\Debug\net6.0\StripPaymentPOC.csproj.AssemblyReference.cache
 C:\Users\mohammed.elkassed\source\repos\StripPaymentPOC\StripPaymentPOC\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\mohammed.elkassed\source\repos\StripPaymentPOC\StripPaymentPOC\bin\Debug\net6.0\appsettings.json
+C:\Users\mohammed.elkassed\source\repos\StripPaymentPOC\StripPaymentPOC\bin\Debug\net6.0\tsconfig.json
 C:\Users\mohammed.elkassed\source\repos\StripPaymentPOC\StripPaymentPOC\bin\Debug\net6.0\StripPaymentPOC.exe
 C:\Users\mohammed.elkassed\source\repos\StripPaymentPOC\StripPaymentPOC\bin\Debug\net6.0\StripPaymentPOC.deps.json
 C:\Users\mohammed.elkassed\source\repos\StripPaymentPOC\StripPaymentPOC\bin\Debug\net6.0\StripPaymentPOC.runtimeconfig.json
@@ -22,7 +24,6 @@ C:\Users\mohammed.elkassed\source\repos\StripPaymentPOC\StripPaymentPOC\bin\Debu
 C:\Users\mohammed.elkassed\source\repos\StripPaymentPOC\StripPaymentPOC\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\mohammed.elkassed\source\repos\StripPaymentPOC\StripPaymentPOC\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\mohammed.elkassed\source\repos\StripPaymentPOC\StripPaymentPOC\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\mohammed.elkassed\source\repos\StripPaymentPOC\StripPaymentPOC\obj\Debug\net6.0\StripPaymentPOC.csproj.AssemblyReference.cache
 C:\Users\mohammed.elkassed\source\repos\StripPaymentPOC\StripPaymentPOC\obj\Debug\net6.0\StripPaymentPOC.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\mohammed.elkassed\source\repos\StripPaymentPOC\StripPaymentPOC\obj\Debug\net6.0\StripPaymentPOC.AssemblyInfoInputs.cache
 C:\Users\mohammed.elkassed\source\repos\StripPaymentPOC\StripPaymentPOC\obj\Debug\net6.0\StripPaymentPOC.AssemblyInfo.cs

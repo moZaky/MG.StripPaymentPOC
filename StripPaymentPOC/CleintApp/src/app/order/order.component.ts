@@ -10,9 +10,9 @@ import { environment } from 'src/environments/environment';
   styleUrls: ['./order.component.css']
 })
 export class OrderComponent {
-  private _baseUrl = "";
+  private _baseUrl = "https://localhost:7131";
   private stripePromise?: Promise<Stripe | null>;
-  
+
   order = {
     ProductApiId: "price_1Nchq2IPIiF5QVRNaJ3CHrRG",
     Quantity: 3
@@ -23,12 +23,13 @@ export class OrderComponent {
   async pay() {
     this.stripePromise = loadStripe(environment.stripe_pk);
     const stripe = await this.stripePromise;
-    this._createOrder(this.order).subscribe((response: string) => {            
-      stripe?.redirectToCheckout({ sessionId: response });
-    });
+    stripe?.redirectToCheckout({ sessionId: 'cs_test_a15dQmMs8kRvv0Fp6h1UUK4I6dOSqwb20snCQnzQtnL28QatmlUqbCnIac' });
+    // this._createOrder(this.order).subscribe((response: string) => {
+
+    // });
   }
 
-  private _createOrder(order: any): Observable<string> {       
-    return this.http.post<string>(`${this._baseUrl}/payment/PlaceOrder`, order)    
+  private _createOrder(order: any): Observable<string> {
+    return this.http.post<string>(`${this._baseUrl}/api/payment/PlaceOrder`, order)
    }
 }

@@ -1,18 +1,26 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+	<PropertyGroup>
+		<TypeScriptNoEmitOnError>true</TypeScriptNoEmitOnError>
+		<TypeScriptNoImplicitReturns>true</TypeScriptNoImplicitReturns>
+		<TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+
+	</PropertyGroup>
+	<ItemGroup>
+	  <Compile Remove="CleintApp\**" />
+	  <Content Remove="CleintApp\**" />
+	  <EmbeddedResource Remove="CleintApp\**" />
+	  <None Remove="CleintApp\**" />
+	</ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Stripe.net" Version="41.27.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Models\" />
   </ItemGroup>
 
 </Project>
