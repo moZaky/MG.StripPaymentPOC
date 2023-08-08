@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33513.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StripPaymentPOC", "StripPaymentPOC\StripPaymentPOC.csproj", "{520D82D7-0BFD-49F9-A29F-E01F6EFC7E85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{520D82D7-0BFD-49F9-A29F-E01F6EFC7E85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{520D82D7-0BFD-49F9-A29F-E01F6EFC7E85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{520D82D7-0BFD-49F9-A29F-E01F6EFC7E85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{520D82D7-0BFD-49F9-A29F-E01F6EFC7E85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDB1BFBA-725C-4765-A572-4C10117EDBF6}
+	EndGlobalSection
+EndGlobal
