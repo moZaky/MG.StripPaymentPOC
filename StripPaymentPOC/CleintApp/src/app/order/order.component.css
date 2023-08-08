@@ -1,0 +1,23 @@
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+}
+
+.button-container p {
+    font-size: 20px;
+}
+
+.button {
+    border: none;
+    outline: none;
+    padding: 20px 50px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    background: #1f75cb;
+    color: #fff;
+    cursor: pointer;
+}
